@@ -1,0 +1,39 @@
+List and Hooks
+
+1.	Explain Life cycle in Class Component and functional component with Hooks?
+Class Component Lifecycle:
+
+1. Mounting Phase: 
+   	- constructor (): The component is initialized, and state can be set.
+  	 - ComponentWillMount (): Deprecated. Avoid using it.
+  	 - render() : The component UI is rendered.
+- componentDidMount (): Called after the component is rendered into the DOM. You can perform tasks like data fetching here.
+
+2. Updating Phase: 
+   - shouldComponentUpdate(): Determines if the component should re-render.
+ 	  - componentWillUpdate(): Deprecated. Avoid using it.
+   - render(): Re-renders the component.
+- componentDidUpdate(): Called after a re-render, often used for side effects like updating the DOM or making network requests.
+
+3. Unmounting Phase: 
+- componentWillUnmount(): Called just before the component is removed from the DOM. Cleanup tasks should be performed here.
+
+
+
+
+
+Functional Component with Hooks: 
+
+1. Mounting Phase: 
+   - useState(): Used to manage state.
+   - useEffect(() => {}, []): Replaces `componentDidMount` and `componentDidUpdate`. It's used for side effects and data fetching.
+   
+
+2. Updating Phase:
+ 	  - useState(): Continues to manage state.
+   - useEffect(() => {}): Runs after every render. You can conditionally run effects by specifying dependencies as the second argument.
+   
+3. Unmounting Phase:
+- useEffect(() => { return () => {} }, [])`: This is used for cleanup, similar to `componentWillUnmount`.
+
+
