@@ -1,2 +1,0 @@
-1. State: State is data that is local to a component and can change over time. In class components, you can define and manage state using the `this.state` and `this.setState()` methods. In functional components, you can use the `useState` hook to manage state. State allows a component to keep track of dynamic data and re-render when that data changes.
-
