@@ -1,0 +1,2 @@
+Props (Properties): Props are inputs that a parent component can pass to its child components. They are read-only and help you pass data from parent to child. Props are useful for making components reusable and for customizing their behavior based on the data they receive. Props are accessible in both class and functional components as function parameters or via `this.props` in class components.
+

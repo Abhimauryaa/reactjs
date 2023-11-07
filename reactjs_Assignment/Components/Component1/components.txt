@@ -1,0 +1,8 @@
+
+What is React-Components, State, Props?
+1. Class Components:  These are ES6 classes that extend the `React.Component` class. Class components have a `render()` method that returns the component's UI based on its current state and props. They can also have internal state and lifecycle methods.
+
+2. Functional Components: These are simpler and more concise components that are just JavaScript functions. They accept `props` as an argument and return the component's UI. Functional components were enhanced with the introduction of React Hooks to manage component state and side-effects.
+
+
+
