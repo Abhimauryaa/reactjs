@@ -1,0 +1,55 @@
+
+.form{
+    align-items: center;
+    display: block;
+    background-color: aqua;
+    width: 32%;
+    height: 270px;
+     margin-left: 40%;
+}
+.info{
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+.info input{
+    font-size: 20px;
+    
+}
+button{
+    background-color: yellow;
+    
+}
+.btn{
+    padding: 1%;
+    margin-top: 20px;
+    margin-left: 55px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%;
+}
+.form .bpart{
+    padding-top: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.form .bpart tr{
+    /* padding: 8%; */
+    display: flex;
+    font-weight: 300;
+    text-align: center;
+    gap: 300px;
+    margin-left: -30%;
+}
+.form button{
+    /* display: flex; */
+    
+}
+.edit{
+    gap: 20px;
+    background-color: green;
+    color: white;
+    
+}
