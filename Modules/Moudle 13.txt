@@ -1,0 +1,35 @@
+MODULE: 13 
+React-Applying Redux
+
+
+1. What is Redux?
+Ans:  Redux is a pattern and library for managing and updating application state, using events called "actions".
+
+2. What is Redux Thunk used for?
+Ans: Redux Thunk is middleware for Redux that allows you to write action creators that return a function instead of an action object. This function can then perform asynchronous operations, such as fetching data from a server, before dispatching the actual action to update the redux store. It’s commonly used to handle side effects in Redux applications, like making AJAX requests or interacting with browser APIs.
+
+
+3. What is pure component? When to use pure Component over Component?
+Ans: A pure component in React is a component that only re-renders when its props or state change. It implements the ‘shouldComponentUpdate’ lifecycle method with a shallow comparison of props and state to determines if a re-render is necessary.
+You should use pure components when:
+1. You want to optimize performance by reducing unnecessary re-renders.
+2. The component’s render output is solely determined by its props and state and there are no side effects or dependencies outside of those.
+Regular components on the other hand, re-renders, regardless of whether their props or state have changed. Use regular components when you need rely on lifecycle methods, manage  local state that doesn’t affect other components or when implementing complex rendering logic that involves dependencies outside of props and state.
+
+
+4. What is the second argument that can optionally be passed tosetState and what is its purpose?
+Ans: The second argument that can optionally be passed to `setState()` in React is a callback function. This callback function is invoked after the `setState()` operation has been completed and the component has been re-rendered.
+
+The purpose of this callback function is to perform any actions that should occur after the state has been updated and the component has re-rendered. It's useful for scenarios where you need to execute code after the state update has been applied, such as making additional UI updates, fetching data from APIs, or executing other logic dependent on the updated state.
+
+Here's an example of how you can use the callback function with `setState()`:
+
+Example:
+this.setState({ count: this.state.count + 1 }, () => {
+   console.log ('State updated and component re-rendered.');
+  // Additional logic can be executed here
+});
+
+In this example, the callback function is passed as the second argument to `setState()`. After the state update has been applied and the component has re-rendered, the callback function is invoked, printing a message to the console.
+
+Using the callback function with `setState()` allows you to ensure that any dependent logic or side effects are executed at the appropriate time, after the state has been updated and the component has reflected those changes in the UI.
