@@ -1,0 +1,91 @@
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 20px; */
+    /* margin-right: 25%; */
+}
+
+/* ----------------------------Form Styles----------------*/
+
+.main-content{
+    margin-bottom: 3%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: rgb(82, 79, 79);
+}.main-content h2{
+    margin-right: 78%;  
+}
+.customer-login{
+
+}
+.customer-login input{
+    width: 500px;
+    height: 25px;
+    padding: 12px;
+    margin: 0 0 5px;
+    display: inline-block;
+    border: transparent;
+    background: #f2f2f2;
+    /* min-height: 50px; */
+    font-size: 13px;
+    box-shadow: none;   
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content1{
+    margin-right: 5%;
+    margin-top: 8%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    /* color: rgb(82, 79, 79); */
+}
+.main-content1 h2{
+    margin-right: 75%;
+}
+.register input{
+    width: 500px;
+    height: 25px;
+    padding: 12px;
+    margin: 0 0 5px;
+    display: inline-block;
+    border: transparent;
+    background: #f2f2f2;
+    /* min-height: 50px; */
+    font-size: 13px;
+    box-shadow: none;   
+}
+.customer-login label{
+    margin-right: 340px;
+}
+.customer-login label a{
+    text-decoration: none;
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+.btn-sign button{
+    background: #1a1a1a none repeat scroll 0 0;
+    border: 1px solid #1a1a1a;
+    padding: 12px 20px;
+    min-width: 150px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'helvetica 55 roman';
+    cursor: pointer;
+    margin-right: 70%;
+    margin-top: 20px;
+}

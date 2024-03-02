@@ -1,0 +1,684 @@
+.navbar img{
+    width: 94%;
+    display: block;
+    margin-top: 20px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mid-content{
+    text-align: center;
+    margin-top: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(98, 89, 89);
+}
+.mid-content h1{
+    color: black;
+}
+.mid-content .cate-men{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.cate-men button{
+    background: 0 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    color: rgba(0,0,0,.7);
+    font-family: poppins-regular;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 7px 25px;
+}
+.cate-men .btn-men{
+    color: red;
+    border-color: red;
+}
+.cate-men button{
+    cursor: pointer;
+}
+/* ====================Shop categories============================== */
+.tabs-head{
+    position: relative;
+    z-index: 2;
+}
+.tabs-content{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.tabs-img img{
+    cursor: pointer;
+}
+.newsSection-box h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #000;
+
+}
+.newsSection-box img{
+    width: 80%;
+    margin-right: 45px;
+}
+
+.btn-hover button{
+    background-color: transparent;
+    border: 1px solid #a79e9e;
+    font-weight: 500;
+    width: 300px;
+    height: 45px;
+    display: block;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-out;
+}
+.btn-hover button:hover{
+    /* background-color: red; */
+    color: white;
+    background-position: left bottom;
+}
+
+/* =================newsSection 2 New Arrivals====================== */
+.newsSection-2{
+    background: #f9f9f9;
+    /* border: 1px solid black; */
+
+}
+.best-seller{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.tabs{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    color: #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 7px 25px;
+    border-bottom: 1px solid #ccc;
+}
+.active{
+    color: #ed1c24;
+    border-color: #ed1c24;
+
+}
+.best-content{
+    display: flex;
+    margin-top: 50px;
+}
+
+.best-content-img img{
+    cursor: pointer;
+}
+.best-content-img h3{
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+.best-content-img p{
+    color: #424242;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+/* =============newSection 3===================== */
+.newsSection-3{
+    padding: 2% 4%;
+    margin-top: 35px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 1px solid red ; */
+}
+.newsSection-3 .newSection-hero{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.newSectionBox-img{
+    margin-left: 25px;
+}
+.newSectionBox-img img{
+    cursor: pointer;;
+}
+
+
+/* ==============newsSection 4=================== */
+.newsSection-4{
+    padding: 2% 4%;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+.heading-new{
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins-medium;
+    font-weight: 400;
+    color: #ed1c24;
+
+}
+ .newsSection-4 .newsSection-brand{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.newsSectionBox4{
+    width: 49%;
+}
+.newsSectionBox-img{
+    background-image: none;
+    background-size: auto;
+}
+.newsSectionBox-img img{
+    cursor: pointer;
+}
+.overlap-newbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -25px;
+    background: #f9f9f9;
+    position: relative;
+    text-align: center;
+    padding: 20px 30px;
+    margin-left: 55px;
+}
+.overlap-newbox .overlap-brand{
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-hover1{
+    text-transform: capitalize;
+}
+.btn-hover1 button{
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 1px solid #707070;
+    padding: 10px 30px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
+    margin: 0 auto;
+    z-index: 1;
+}
+.btn-hover1 button:hover{
+   color: white;
+    background-position: left bottom;
+}
+.newsSection-bottom{
+     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.btn-bottom button{
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 1px solid #707070;
+    padding: 10px 30px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
+    margin: 0 auto;
+    z-index: 1;
+}
+.btn-bottom button:hover{
+    color: white;
+     background-position: left bottom;
+ }
+
+ /* ========newsSection 5: Gender Section */
+
+
+
+ .newsSection-5{
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+
+ }
+/* ============gender section left============== */
+.genderSection-left{
+    position: relative;
+}
+.genderSection-img{
+    background-image: none;
+    background-size: auto;
+}
+.genderSection-img img{
+    margin-left: 0px;
+    
+}
+.genderSection-left .btn-gender{
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+.genderSection-left .btn-gender button{
+    background: #fff;
+    height: 40px;
+    cursor: pointer;
+    width: 180px;
+    border-color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    position: relative;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
+}
+.genderSection-left .btn-gender button:hover{
+    color: white;
+    background-position: left bottom;
+}
+
+/*=============right section=================== */
+.genderSection-right{
+    position: relative;
+
+}
+.genderSection-overlap{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+.genderSection-right .btn-gender{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+}
+.genderSection-right .btn-gender button{
+    background: #fff;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    border-color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    position: relative;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
+    
+}
+.genderSection-right .btn-gender button:hover{
+    color: white;
+     background-position: left bottom;
+
+}
+/* =============gender overlap================ */
+.genderSection-overlap{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+.genderSection-overlap h2{
+    font-family: greatvibes-regular;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    line-height: 80px;
+}
+.genderSection-overlap h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: poppins-thin;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+} 
+/* =============newsSection 6================== */
+.newsSection-6{
+    padding: 2% 4%;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.newsSection-store{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.store-img{
+    display: block;
+    width: 100%;
+}
+.overlap-store{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    left: 80px;
+
+}
+.overlap-store h4{
+    width: 64%;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: poppins-light;
+    line-height: 35px;
+}
+.btn-store{
+    display: block;
+    text-align: left;
+    float: left;
+}
+.btn-store button{
+    background: #fff;
+    height: 40px;
+    width: 180px;
+    border-color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    font-weight: 600;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
+}
+.btn-store button:hover{
+    color: white;
+    background-position: left bottom;
+}
+
+/* ===================Footer========================= */
+.page-footer{
+    /* background: #fcfcfc; */
+    border-top: 0 solid #000;
+    width: 100%;
+    float: left;
+    background-color: #f7f7f7;
+    /* margin-top: 0!important; */
+    /* background-size: cover; */
+}
+.footer-content{
+    margin: 0;
+    padding: 20px 0;
+    /* border: none; */
+    width: 100%;
+    max-width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    float: left;
+    /* margin-top: 0!important; */
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+
+}
+.free-shipping{
+    margin-bottom: 0;
+    padding: 0;
+    padding-top: 0;
+    font-size: 0;
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0;
+}
+.footer-free-shipping{
+    max-width: 94%;
+    margin: 0 auto;
+    position: relative;
+    bottom: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.footer-free-shipping ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.footer-free-shipping ul li{
+    width: auto;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .5s cubic-bezier(.68,-.55,.265,1.55);
+    padding: 0 4%;
+    float: left;
+    margin: 0 .5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.footer-free-shipping ul li img{
+    margin-bottom: 20px;
+}
+.footer-free-shipping ul li p{
+    font-size: 12px;
+    /* margin-top: 15px; */
+    padding: 0;
+    margin: 0;
+    /* line-height: 40px; */
+    color: #605e5e;
+    width: 100%;
+    line-height: normal;
+}
+.footer-free-shipping ul li p strong{
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+}
+.newsletter-hide{
+    text-align: center;
+}
+.newsletter-hide .title{
+    display: block;
+    margin-bottom: 20px;
+}
+.newsletter-hide .content{
+    width: 85%;
+}
+.newsletter-hide .content .subscribe{
+    width: 45%;
+    position: relative;
+    margin-top: 13px;
+    margin: 0 auto;
+}
+
+.newsletter-hide .title strong{
+    display: block;
+    font-size: 22px;
+    font-family: 'helvetica 55 roman';
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: roboto-medium;
+    text-transform: uppercase;
+}
+.content .field-news{
+    padding-top: 0px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.newsletter-hide .control{
+    width: 100%;
+}
+.newsletter-hide .content .control input{
+    background-color: transparent;
+    padding: 18px 12px;
+    outline: none;
+    font-size: 12px;
+    width: 100%;
+    box-shadow: none;
+    color: #000;
+    border: 1px solid #ed1c24;
+    margin-left: 60px;
+}
+.newsletter-hide .content .field-news .action{
+    display: block;
+    position: absolute;
+    right: 0;
+    width: auto;
+    top: 0;
+    height: 50px;
+
+}
+ .action button{
+    margin: 1px;
+    margin-left: 68%;
+    height: 100%;
+    background-color: #ed1c24;
+    border: none;
+    overflow: hidden;
+    box-shadow: none;
+    width: 125px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.footer-link-container{
+    padding: 0% 4%;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    
+}
+.footer-link{
+    margin-top: 40px;
+    
+}
+.footer-link .customer-menu{
+    margin-left: 21px;
+    float: left;
+    width: 18%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.footer-link .customer-menu h2{
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: poppins-medium;
+    letter-spacing: 1px;
+
+}
+
+.footer-link .customer-menu li{
+    display: block;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #000;
+    line-height: 32px;
+    margin-left: -57px;
+}
+.footer-link .customer-menu li a{
+    
+    color: #000;
+    text-decoration: none;
+
+}
+.customer-menu img{
+    width: 100%;
+    height: auto;
+}
+.footer-link .customer-menu p{
+    font-size: 12px;
+    color: #000;
+    font-family: poppins-regular;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 90%;
+
+}
+.footer-link .customer-menu ul{
+    list-style: none;
+}
+.footer-link .customer-menu .social{
+    display: flex;
+    gap: 16px;
+}
+.footer-link .customer-menu .social li{
+    padding-right: 50px;
+}
+.footer-link .customer-menu .social li a{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+.customer-menu a{
+    color: #333;
+    text-decoration: none;
+    
+}
